@@ -1,0 +1,20 @@
+output
+output.c
+todo
+ASM/*
+champs/*
+*.cor
+*.s
+# Object files
+*.o
+# Libraries
+*.a
+**/*.a
+# Executables
+example
+asm
+corewar
+*.out
+sasm
+# Debug files
+*.dSYM/

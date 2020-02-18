@@ -1,0 +1,23 @@
+Binary files valid/42.cor and subvalid/42.cor differ
+diff -r valid/42.s subvalid/42.s
+4c4
+< entree:   live %42
+---
+> entree:   live %88
+diff -r valid/42.s.res subvalid/42.s.res
+6c6
+< 00000050  65 3a 20 20 20 6c 69 76  65 20 25 34 32 0a 09 6c  |e:   live %42..l|
+---
+> 00000050  65 3a 20 20 20 6c 69 76  65 20 25 38 38 0a 09 6c  |e:   live %88..l|
+Only in subvalid/: Survivor.cor
+Only in subvalid/: big_feet.cor
+Only in subvalid/: end_comment.cor
+Only in subvalid/: flipped_name_comment.cor
+Only in subvalid/: mise_a_jour_windows95.cor
+Only in subvalid/: neg_indirect_error.cor
+diff -r valid/script.sh subvalid/script.sh
+3c3
+<   ../../asm "$file"
+---
+>   ../../sasm "$file"
+Only in subvalid/: ultima.cor
